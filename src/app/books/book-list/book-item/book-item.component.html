@@ -1,0 +1,13 @@
+<a style="cursor:pointer" class="list-group-item clearfix">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2">
+              <button class="btn btn-success" [routerLink]="[index]" title="Click to get details">
+                {{ book.title }} </button>
+      </div>
+      <div class="col-xs-2">
+          <button class="btn btn-danger" style="margin-left:110%;" (click)="onDelete()">X</button>
+      </div>
+    </div>
+  </div>
+</a>
